@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+
+header {
+    padding: 15px 0;
+    text-align: center;  
+    width: 100%;
+    z-index: 9999;
+
+}
+
+
+.navigation, ul { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+
+    
+
+}
+
+.navigation, li, a { 
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: monospace;
+    font-size: 2vh;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: center;
+
+}
+
+.navigation a:hover,.navigation a:focus,.navigation a:active,.navigation a.active {
+
+    color: tomato;
+}
+
+
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+
+
+main {
+    color: black;
+    font-family: monospace;
+    font-size: 2vh;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    width: 100%;
+
+}
+
+.mainh1 { 
+    text-align: center;
+    font-family: monospace;
+    font-size: 3.5vh;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+
+.content-menu {
+    width: 200px;
+    position: sticky;
+   
+}
+
+
+
+
+.main-section { 
+   
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    font-family: monospace;
+    font-size: 3vh;
+    flex-direction: column;
+
+
+}
+
+
+.main-section a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(73, 85, 250);
+    font-family: monospace;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-decoration: none; 
+    margin: 0;             
+    padding: 0; 
+    
+}
+.main-section a:hover {
+ 
+    color: tomato;
+
+}
+
+main h2 {
+    margin-top: 40px;
+}
+
+main p {
+    font-size: 2.5vh;
+    line-height: 30px;
+}
+
+.playoffimg {
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 15%;
+}
+
+.important {
+    color: red;
+}
+
+.tomato {
+    color: tomato;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# MOBILE #
+--------------------------------------------------------------*/
+
+
+@media screen and (max-width: 768px) {
+
+    .navigation, ul { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    
+    
+        
+    
+    }
+
+
+
+    .navigation, li, a { 
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-family: monospace;
+        font-size: 2.2vw;
+        font-weight: bold;
+        letter-spacing: 0px;
+        justify-content: center;
+
+    }
+
+    .mainh1 {
+        text-align: center;
+        font-family: monospace;
+        font-size: 3vw;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+
+
+}
